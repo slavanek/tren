@@ -29,7 +29,7 @@ float: left;
 padding: 0;
 }
 
-#caps {
+.caps {
 background-size: auto auto;
 border: 1px solid red;	
 background-repeat: no-repeat;
@@ -37,7 +37,7 @@ background-image: url("../images/foto_min.png");
 }
 	
 @media (min-width: 576px) { /* sm */
-#caps {
+.caps {
 background-position: center 40%;
 background-image: url("../images/foto_576.png");
 min-height: 360px;
@@ -46,20 +46,20 @@ background-color: #e7eef1;
 }
 
 @media (min-width: 768px) { /* md */
-#caps {
+.caps {
 min-height: 360px;
 background-image: url("../images/foto_776.png");
 } 
 }
 
 @media (min-width: 992px) { /* lg */
-#caps {
+.caps {
 background-image: url("../images/foto_992.png");
 }  
 }
 
 @media (min-width: 1200px) { /* xl*/
-#caps {
+.caps {
 background-image: url("../images/foto_1663.png");
 }
 }
@@ -67,10 +67,10 @@ background-image: url("../images/foto_1663.png");
 	
 	
 .foto_lica {
-width: 100%
+max-width: 100%
 }
 
-#info_text .hh1 {
+.info_text .hh1 {
 display: block;
 }
 
@@ -80,25 +80,25 @@ display:inline-block;
 }
 
 
-#info_text .hh3{
+.info_text .hh3{
 	display: block;
 }
 
-#mob-menu li {
+.mob-menu li {
 	border: 1px solid red;
 }
 /************************Меню с главной страницы**************************************************************/
 
-#mob-menu ul{ 
+.mob-menu ul{ 
  margin-top: 0; /*Фиксированной высоты не было – это margin строки*/
  margin-bottom: 0;
 }
   
-#mob-menu li{           
+.mob-menu li{           
     display:block;
 	padding: 0;
 }
-#mob-menu a{
+.mob-menu a{
 	padding-top: 10px;
     display:block;
 	padding-bottom: 10px;
@@ -109,19 +109,19 @@ display:inline-block;
 			
 /************************************************************************************/
 
-#about span {
+.about span {
     display: block;
 }
 
-#face_obr {
+.face_obr {
 display: none;
 }
-#foto_face {
+.foto_face {
 width: 100%;	
 }
 
 
-#basement {
+.basement {
 border: 1px solid #f7b709;	
 }
 
@@ -129,18 +129,6 @@ border: 1px solid #f7b709;
 display: block;	
 }
 
-
-#search2 input[type="text"] { 
-border: none;
-float: left;
-}
-#search2 input[type="submit"] { /*кнопка нажатия*/
-width: 30px;
-height: 34px;
-border: none;
-cursor: pointer;
-float: left;
-}
 
 
 .sshh4{
