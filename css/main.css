@@ -66,9 +66,9 @@ background-image: url("../images/foto_1663.png");
 	
 	
 	
-.foto_lica {
-max-width: 100%
-}
+/*.foto_lica {
+max-width: 100%    картинка перешла в фон
+}*/
 
 .info_text .hh1 {
 display: block;
