@@ -7,109 +7,61 @@ border: 1px solid green;
 
 
 body {
-	
-	
 	background-color: #ffffff; /*цвет фона */
 	/* ----убирание полей  */
 	margin: 0; 
 	padding: 0;
 	/* ----убирание полей  */
-	
-	
-	
 	/* используемые шрифты */
 	font-family: 'Roboto Condensed',Verdana, Arial, "Times New Roman";
-	
 	font-size: 16px;
 	font-weight: normal;
 	/* ---------используемые шрифты */
 }
-.polosa {
-
-width: auto;
-height: auto;	
-
-}
 
 
-.top_menu {
-//height: auto;
-//border: 1px solid black;	
 
-
-}	
-
-.question {
-//border: 1px solid red;	
-//height: 38px;	
-//padding-top: 10px;
-
-
-}
 .question a{
-
 display: block;
-width: auto;
 float: left;
-
 }
 .useful {
-
 padding: 0;
 }
 
-#useful_links {
-
-
-}
-#lupa {
-
-}
 #caps {
-
 background-size: auto auto;
 border: 1px solid red;	
-
 background-repeat: no-repeat;
 background-image: url("../images/foto_min.png");
-
-	}
+}
 	
 @media (min-width: 576px) { /* sm */
-  #caps {
-
+#caps {
 background-position: center 40%;
 background-image: url("../images/foto_576.png");
 min-height: 360px;
 background-color: #e7eef1;
-	} 
+} 
 }
 
 @media (min-width: 768px) { /* md */
-  #caps {
+#caps {
 min-height: 360px;
-
 background-image: url("../images/foto_776.png");
-
-	} 
+} 
 }
 
 @media (min-width: 992px) { /* lg */
 #caps {
-
-//min-height: 510px;
 background-image: url("../images/foto_992.png");
-
-	}  
-  
+}  
 }
 
 @media (min-width: 1200px) { /* xl*/
 #caps {
-
 background-image: url("../images/foto_1663.png");
-
-	}
+}
 }
 	
 	
@@ -117,104 +69,57 @@ background-image: url("../images/foto_1663.png");
 .foto_lica {
 width: 100%
 }
-#info_text {
-//	height: 310px; // у #info_text нужно убрать высоту фиксированную, если текста будет больше в описании чем показал дизайнер - будет бяка, учитываем этот момент
-	
-}
+
 #info_text .hh1 {
-
 display: block;
-
 }
-.letter {
 
-	
-}
 
 .letter2{
-
-	
-
-//margin: 10px 0px 0px 0; /* величина отступа (сверху, справа, снизу и слева );*/
-
-
 display:inline-block; 
-
-
 }
 
 
 #info_text .hh3{
 	display: block;
-
-
 }
-
 
 #mob-menu li {
 	border: 1px solid red;
-	
 }
-
 /************************Меню с главной страницы**************************************************************/
 
-#mob-menu{
-width: auto;
-
-
-}
-
-    #mob-menu ul{ 
-        width:auto; 
-	
+#mob-menu ul{ 
  margin-top: 0; /*Фиксированной высоты не было – это margin строки*/
  margin-bottom: 0;
-    }
+}
   
 #mob-menu li{           
-            display:block;
-		padding: 0;
+    display:block;
+	padding: 0;
 }
-
-
-   
-		
-            #mob-menu a{
-				padding-top: 10px;
-                display:block;
-				padding-bottom: 10px;
-				padding-left: 10px;
-				padding-right: 10px;
-            }
+#mob-menu a{
+	padding-top: 10px;
+    display:block;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
 
 			
 /************************************************************************************/
 
-.seti {
-//height: 90px;	
-}
-#about {
-
-}
 #about span {
     display: block;
-  
 }
-#about p{
-/
 
-}
 #face_obr {
-
-
 display: none;
 }
 #foto_face {
 width: 100%;	
 }
-#ft {
 
-}
 
 #basement {
 border: 1px solid #f7b709;	
@@ -222,23 +127,19 @@ border: 1px solid #f7b709;
 
 .bld {
 display: block;	
-
 }
 
 
 #search2 input[type="text"] { 
 border: none;
 float: left;
-
 }
 #search2 input[type="submit"] { /*кнопка нажатия*/
-
 width: 30px;
 height: 34px;
 border: none;
 cursor: pointer;
 float: left;
-
 }
 
 
