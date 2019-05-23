@@ -1,0 +1,36 @@
+input, textarea, select, button {
+	padding: 10px 10px 10px 0px;
+	border-color: #ddd;
+	-webkit-border-radius: 5px;
+		font: 300 16px/1.25 "Open Sans", Tahoma, Verdana, sans-serif;
+		color: #222;
+}
+textarea {
+min-height: 90px;
+max-width: 100%;
+box-sizing: border-box;	
+}
+textarea, select, 
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="date"],
+input[type="checkbox" ],
+input[type="radio"] {
+padding: 9px 10px;
+border-width: 1px;
+border-style: solid;
+min-height: 20px;	
+}
+input[type="submit"],button {
+	padding: 10px 20px;
+	min-height: 20px;
+	line-height: 20px;
+	border: 0;
+	background-color: #936;
+	color: #fff;
+	cursor: pointer;
+}
+input[type="submit"]:hover, button:hover {
+	opacity: 0.9;
+}
