@@ -1,0 +1,42 @@
+p {
+	color: red;
+}
+
+
+a { /* Селектор тега "a" приоритет каскадности - 1,  */
+text-decoration:  none; 	/* свойства наследуются  */
+}
+
+.knopka { /* Селектор класса для обеих кнопок */
+font-family:OpenSansBold; /* свойства наследуются  */
+width: auto;
+border-radius: 5px;	
+padding: 10px 25px 10px 25px;
+margin-top: 20px;
+background-repeat: repeat-x;
+color: #fff;
+border-bottom-style: solid;
+border-bottom-width: 4px;
+font-size:10px;
+}
+.knop_seo {
+background-color: #9dc8ec;
+background-image: url(../fon_knop.png);
+border-bottom-color: #3f8ccd;
+color: green; /* приоритет по цвету букв выше т.к. селектор прописан позже */
+}
+.knop_seo:hover { 
+background-image: url(../fon_knop2.png);
+background-color: #b9dfff;
+}
+
+.knop_seo2 {
+background-color: #f76644;
+
+
+border-bottom-color: #f13b11;
+}
+.knop_seo2:hover { 
+
+background-color: #f1c8bf;
+}
