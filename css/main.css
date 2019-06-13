@@ -20,7 +20,7 @@ body {
 	line-height: 1.5em;
 }
 
-h1,h2,h3 {
+h1,h2,h3,h4,h5 {
 	font-family: 'Roboto Bold Condensed';
     line-height: 1em;
 	color: #000;
@@ -30,11 +30,7 @@ font-family: 'Roboto Bold Condensed';
     line-height: 1em;
 	color: #000;	
 }
-.pod {
-	padding-bottom: 15px;
-border-bottom: 1px solid black;	
 
-}
 
 h1{ 
    font-size: 24px;	
@@ -44,18 +40,31 @@ h1{
 	font-size: 48px;	
 }
 
+
+/* <h2 class="ph3">Фот<span class="pod">огале</span>рея</h2> */
+
 h2 {  
     font-size: 24px;
 	padding-bottom:20px;
 }
+.ph3 {
+text-align: center;	
+}
+.pod {
+padding-bottom: 15px;
+border-bottom: 1px solid black;	
+}
 
-h3 {
-font-size: 18px;
+h3,h4 {
+font-size: 20px;
 font-weight: bold;
-text-decoration-line: underline;
+//text-decoration-line: underline;
 font-stretch: ultra-condensed;
 color: #193e61;	
 line-height: 1.2em;
+}
+h4 {
+font-size: 18px;	
 }
 p {
 font-family: 'Roboto Condensed';
@@ -87,7 +96,9 @@ form {
     color: #333;
 }
 
-input[type="text"] {
+input[type="text"],input[type="number"],
+input[type="email"],
+input[type="date"] {
     width: 100%;
     height: 40px;
     clear: both;
@@ -100,20 +111,20 @@ input[type="text"] {
     color: #333;
 }
 
-input[type="submit"] {
+input[type="submit"],button {
 	 font-family: 'Roboto Bold Condensed';
-  
+    display: inline-block;
+ //   width: 160px;
+    height: 40px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #333; 
  
 	
 }
 .subb {
     // text-align: center;
-    display: inline-block;
-    width: 160px;
-    height: 40px;
-    font-size: 18px;
-    color: #fff;
-    background-color: #333;
+ 
 }
 textarea {
     height: 180px;
@@ -129,7 +140,6 @@ outline: none;  /*  убираются рамки вокруг выделены�
 }
 
 blockquote {
-strong {
   font-family: 'Roboto Bold Condensed';
     font-size: 30px;
     color: #333;
@@ -212,9 +222,7 @@ border: 1px solid red;
 background-repeat: no-repeat;
 background-image: url("../images/foto_min.png");
 }
-.ph3 {
-text-align: center;	
-}
+
 	
 @media (min-width: 576px) { /* sm */
 .caps {
